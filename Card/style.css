@@ -1,0 +1,60 @@
+*{
+  margin: center;
+  padding: 0;  
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000f19;
+}
+
+.title{
+  color: #FFFF;
+  text-shadow: 5px 5px 5px #f069e7 ;
+  font-family: Cambria, Cochin;
+  font-size: 40px;
+  text-align: center;
+}
+.card{
+  box-shadow:  -15px -5px 5px #712387;
+  display: flex;
+  justify-content: space-between;
+  background-color: #9022ae;
+  border-radius: 15px;
+  width: 700px;
+  height: 400px
+
+}
+.price{
+  color: #FFFF;
+  text-shadow: 5px 5px 5px #f069e7 ;
+ margin-left: 40%;
+}
+.img-card{
+  display:flex;
+  width: 45%;
+  height: 100%;
+  }
+.main-card{
+  font-family:'Lucida Sans' ;
+  font-size: 25px;  
+  width: 40%;
+  height: 100%;
+  padding: 7px;
+}
+button{
+  background-color: #000f19;
+  color: #FFFF;
+  padding: 20px;
+  border-color: #FFFF;
+  width: 70%;
+  margin-left: 10%;
+  
+}
+
+
